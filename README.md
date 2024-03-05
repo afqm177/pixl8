@@ -5,8 +5,10 @@ Project is using Laravel 10 which requires developers to have PHP 8 installed. S
 
 - Clone the project.
 - You may use any local server XAMPP or Laragon (Make sure to have PHP 8 running in this local server)
-- Run next command <i>"cp .env.example .env"</i>
-- Once cloned, run this command in the project directory <i>"composer install"</i>
+- Once cloned, get into the cloned directory
+- Run command <i>"cp .env.example .env"</i>
+- Then, run command <i>php artisan key:generate</i>
+- Then, run this command in the project directory <i>"composer install"</i>
 - Go to browser and access <i>http://your-local-server.com:your-local-port</i> and see if index page is showing.
 - Done. Enjoy building your Laravel project! :)
 
